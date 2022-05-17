@@ -11,7 +11,7 @@ from keras.utils.data_utils import get_file
 from flask import request
 from flask import jsonify
 from flask import Flask
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 
 app = Flask(__name__)
@@ -48,6 +48,7 @@ print("====Loading keras model...")
 get_model()
 
 @app.route("/predict", methods=["POST"])
+@cross_origin()
 def predict():
   res = {}
   processed_image = ""
