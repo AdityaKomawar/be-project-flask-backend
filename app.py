@@ -5,7 +5,7 @@ from PIL import Image
 import keras
 from keras import backend as K
 from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+from keras.utils import img_to_array
 from keras.applications import vgg16
 from keras.utils.data_utils import get_file
 from flask import request
