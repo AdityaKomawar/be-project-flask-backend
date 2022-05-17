@@ -15,6 +15,7 @@ scipy = "*"
 seaborn = "*"
 tensorflow-cpu = "*"
 flask-cors = "*"
+gunicorn = "*"
 
 [dev-packages]
 

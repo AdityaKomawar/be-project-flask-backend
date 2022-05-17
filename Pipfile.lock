@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "961b6d69e10ecb4cede3f201ba550cb498a3a4b343136cfaf956d0eb92bc0b50"
+            "sha256": "d122864ec2e0ba21a2a236a7892d3579ba0773442941487bd5ac811eae3f425b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -33,11 +33,11 @@
         },
         "cachetools": {
             "hashes": [
-                "sha256:486471dfa8799eb7ec503a8059e263db000cdda20075ce5e48903087f79d5fd6",
-                "sha256:8fecd4203a38af17928be7b90689d8083603073622229ca7077b72d8e5a976e4"
+                "sha256:4ebbd38701cdfd3603d1f751d851ed248ab4570929f2d8a7ce69e30c420b141c",
+                "sha256:8b3b8fa53f564762e5b221e9896798951e7f915513abf2ba072ce0f07f3f5a98"
             ],
             "markers": "python_version ~= '3.7'",
-            "version": "==5.0.0"
+            "version": "==5.1.0"
         },
         "certifi": {
             "hashes": [
@@ -96,10 +96,10 @@
         },
         "flatbuffers": {
             "hashes": [
-                "sha256:12158ab0272375eab8db2d663ae97370c33f152b27801fa6024e1d6105fd4dd2",
-                "sha256:3751954f0604580d3219ae49a85fafec9d85eec599c0b96226e1bc0b48e57474"
+                "sha256:63bb9a722d5e373701913e226135b28a6f6ac200d5cc7b4d919fa38d73b44610",
+                "sha256:9e9ef47fa92625c4721036e7c4124182668dc6021d9e7c73704edd395648deb9"
             ],
-            "version": "==2.0"
+            "version": "==1.12"
         },
         "fonttools": {
             "hashes": [
@@ -111,11 +111,11 @@
         },
         "gast": {
             "hashes": [
-                "sha256:211aac1e58c167b25d3504998f2db694454a24bb1fb1225bce99420166f21d6a",
-                "sha256:cfbea25820e653af9c7d1807f659ce0a0a9c64f2439421a7bba4f0983f532dea"
+                "sha256:40feb7b8b8434785585ab224d1568b857edb18297e5a3047f1ba012bc83b42c1",
+                "sha256:b7adcdd5adbebf1adf17378da5ba3f543684dbec47b1cda1f3997e573cd542c4"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==0.5.3"
+            "version": "==0.4.0"
         },
         "google-auth": {
             "hashes": [
@@ -201,6 +201,14 @@
             "markers": "python_version >= '3.6'",
             "version": "==1.46.1"
         },
+        "gunicorn": {
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
+        },
         "h5py": {
             "hashes": [
                 "sha256:1c5acc660c458421e88c4c5fe092ce15923adfac4c732af1ac4fced683a5ea97",
@@ -265,10 +273,10 @@
         },
         "keras": {
             "hashes": [
-                "sha256:744d39dc6577dcd80ff4a4d41549e92b77d6a17e0edd58a431d30656e29bc94e"
+                "sha256:55911256f89cfc9343c9fbe4b61ec45a2d33d89729cbe1ab9dcacf8b07b8b6ab"
             ],
             "index": "pypi",
-            "version": "==2.8.0"
+            "version": "==2.9.0"
         },
         "keras-preprocessing": {
             "hashes": [
@@ -675,11 +683,14 @@
                 "sha256:1ef67ac0d44d9ecb36bc33ccc421f683aaeb42bdd72d8a97601eaded3b43f2e4",
                 "sha256:2318fc717c9ff7eb3834bbb2c3be63768e97bb3221bbf70c01537e34e4fb8a1c",
                 "sha256:25b8d471169711dee7667969e7db3d33c372c13701cd2ab6783d0e85b2aab300",
+                "sha256:292525a17645bff043d33d427e93db8cec8d66b5022ead7971ce8bfdf7553feb",
                 "sha256:47c31f7e9a5689c3a2cbdf72e78570b33fa9abb42a1ca10d787516de9c4e37a4",
                 "sha256:502865e025d3222530e350783a59cc37538effde64767721d830ceaae8bb3d42",
                 "sha256:80f9904f5b1356adfc32406725dd94c8cc9c8d265047d98390033a6c238cbb29",
                 "sha256:892be17fc261dff4097c061880586226d47ccd0426d9283091e2ca65da36e645",
+                "sha256:9d8e83d24df9595d4ccca961a2038e331aa7e17534af0b5b15d28e6d65723d1d",
                 "sha256:c10cd62443a9968c71fb9f1c7844f3f28189666f789d5a204dbad7463169b172",
+                "sha256:c819d2820b783f390dda2136508483d6f4302dfba98fc974ce759e55b2247d80",
                 "sha256:cab8a8bef603f0fced7b245f7c4f77826602fd94f7c54ccb09b36b177dde246d",
                 "sha256:dc6681e2f99a4a5bc0682dc4e87192daeb0e9e64da36b35e672b56156e0cc867",
                 "sha256:e4d41245915d0fc6fea26029349ff187b2992ef6588863e8570fc95a24697fd0",
@@ -735,10 +746,10 @@
         },
         "tensorboard": {
             "hashes": [
-                "sha256:65a338e4424e9079f2604923bdbe301792adce2ace1be68da6b3ddf005170def"
+                "sha256:bd78211076dca5efa27260afacfaa96cd05c7db12a6c09cc76a1d6b2987ca621"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2.8.0"
+            "version": "==2.9.0"
         },
         "tensorboard-data-server": {
             "hashes": [
@@ -757,21 +768,28 @@
         },
         "tensorflow-cpu": {
             "hashes": [
-                "sha256:0399da0d90d13a4601f9c1fca89c8c6c4524698bbb8cd2befff2413e25c64415",
-                "sha256:103a687e33ffe201e492a3d58a59759e525311adac305e9694156d0b273eae34",
-                "sha256:119c8b1608884ba4d044660ebd2e025679db544bdc93e69cef7d974f1d70df2b",
-                "sha256:1e6bc4036d52f6360e8a67c25d20b75aef3d69812b262e201cbc34fb297d22d2",
-                "sha256:46cfe5fcc5d5ceb2497b8b28c54f1f6c6007b54a56a59e477e4fe1f9b70b1a8b",
-                "sha256:4dd0b34d16774f4636604d89ee814252a7e21ef4ae61734f4839c6173a60aca3",
-                "sha256:60f7f3258906c6e0753b4a57b461acc2d4360f367714b0bc684b9456658a31ea",
-                "sha256:73f64ce835a4ba38587b8bdb5d41428d99b8321a3e93d00677ed6941d5e753b5",
-                "sha256:783e86af209747738a2a01540fc697a74467ce432a4527969960c13095af5c0f",
-                "sha256:9205b54b6dc34e5824c54ef58296b440af5d580be412038fe6e35f9f894a887f",
-                "sha256:a0cf3a5dd40f056a5a4f3f7be0b616c5bdfbf850e4782f2467f9e16d4144eadb",
-                "sha256:f7b8bac2a70b26c54d222637899120b0025110690411dd4ab270c72f5193e692"
+                "sha256:174ecd5781732a297eb2b72bd038286023e7c167abec66e0b7ff2f1bf53e5f06",
+                "sha256:17be2efe46e6a8e47d4d845c5955bcb8f580634e7493f2df7e474fdd243ccd8c",
+                "sha256:19cbcc823912e101324fcda615d79c04ead5bfecdf5008389d351d95e82147f0",
+                "sha256:1e5ac63e05725c94ecde91a226caf19cd6e771f9a4171b744ff51e53aee1a810",
+                "sha256:422bc94fc974f9e9f3ffce0456b90b4305eba1e4a9019fc901e4358021dc872d",
+                "sha256:806273158df646964e9eaa400c9c76a200b08ac49e33959e0c95493d5b232273",
+                "sha256:810684428cea67bdf3b2f5808ad966c353b73e6ac30244b70b877babad47c06f",
+                "sha256:8ff4f0c203ae87b8b28d19435796910619a485c4397a11ed43805bec9656bf39",
+                "sha256:b7998cc046d449324734c464377c74828019fde3a43fc7af0ef6af7fc4ff0298",
+                "sha256:bc5b1d050abe157cbc2bf8d7c2ecb308d5aea0640b76e645d78f203bf87cf0c7",
+                "sha256:e5744bcc14b0fc211b8a4477563b4501b0d305e018590ac9adf4900a110741bf",
+                "sha256:e8bf56bc2c32547400bad50caedf01d1b53c0346a98ffd46757a24bd44459536"
             ],
             "index": "pypi",
-            "version": "==2.8.0"
+            "version": "==2.9.0"
+        },
+        "tensorflow-estimator": {
+            "hashes": [
+                "sha256:e9762bb302f51bc1eb2f35d19f0190a6a2d809d754d5def788c4328fe3746744"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.9.0"
         },
         "tensorflow-io-gcs-filesystem": {
             "hashes": [
@@ -800,12 +818,6 @@
                 "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
             ],
             "version": "==1.1.0"
-        },
-        "tf-estimator-nightly": {
-            "hashes": [
-                "sha256:0065a04e396b2890bd19761fc1de7559ceafeba12839f8db2c7e7473afaaf612"
-            ],
-            "version": "==2.8.0.dev2021122109"
         },
         "threadpoolctl": {
             "hashes": [
