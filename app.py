@@ -16,7 +16,8 @@ import cv2
 
 
 app = Flask(__name__)
-CORS(app)
+cors=CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 def get_model():
   global model
