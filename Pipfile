@@ -16,6 +16,7 @@ seaborn = "*"
 tensorflow-cpu = "*"
 flask-cors = "*"
 gunicorn = "*"
+opencv-python = "*"
 
 [dev-packages]
 

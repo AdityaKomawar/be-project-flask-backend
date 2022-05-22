@@ -12,6 +12,7 @@ from flask import request
 from flask import jsonify
 from flask import Flask
 from flask_cors import CORS, cross_origin
+import cv2
 
 
 app = Flask(__name__)
@@ -61,6 +62,7 @@ def predict():
     image = Image.open(io.BytesIO(decoded))
     # print("====Inside route!")
     processed_image = preprocess_image(image, target_size=(224, 224), res=res)
+    # processed_image = cv2.resize(preprocess_image, dsize=(224, 224), interpolation=cv2.INTER_CUBIC)
     processed_image = vgg16.preprocess_input(processed_image.copy())
     res['prediction'] = {}
   except Exception as e:
@@ -69,10 +71,10 @@ def predict():
   else:
     prediction = model.predict(np.reshape(processed_image, (-1, 224, 224, 3))).tolist()
 
-  res['prediction']['glioma'] = round(prediction[0][0], 4)
-  res['prediction']['meningioma'] = round(prediction[0][1], 4)
-  res['prediction']['no_tumor'] = round(prediction[0][2], 4)
-  res['prediction']['pituitary'] = round(prediction[0][3], 4)
+    res['prediction']['glioma'] = round(prediction[0][0], 4)
+    res['prediction']['meningioma'] = round(prediction[0][1], 4)
+    res['prediction']['no_tumor'] = round(prediction[0][2], 4)
+    res['prediction']['pituitary'] = round(prediction[0][3], 4)
 
   return jsonify(res)
 
